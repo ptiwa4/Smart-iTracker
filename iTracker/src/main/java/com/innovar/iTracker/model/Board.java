@@ -36,7 +36,7 @@ public class Board {
 	private Project project;
 
 	@OneToMany(mappedBy = "board")	
-	private Set<Phase> phases = new HashSet();
+	private Set<Phase> phases = new HashSet<>();
 
 	public Long getId() {
 		return id;
